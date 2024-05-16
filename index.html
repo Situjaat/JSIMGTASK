@@ -23,6 +23,14 @@
         .card_container img {
           width: 100%;
           height: 350px;
+          transition: all ease-in-out 2s;
+          border-radius: 10px 50px;
+          
+        }
+        .card_container img:hover{
+          transform: scale(1.1);
+          border-bottom-left-radius: 0px;
+          
         }
 
         .card_container button {
@@ -30,13 +38,13 @@
          border-radius: 5px;
          cursor: pointer;
          font-size: 15px;
-         background-color: rgba (34, 33, 33, 0.801);
-         width: 50%;
         }
         .card_container{
             border: 2px solid gray;
             text-align: center;
             padding: 15px;
+            overflow: hidden;
+            border-radius: 10px 50px;
         }
 
         @media screen and (min-width:768px) and (max-width:1080px) {
@@ -49,6 +57,16 @@
              padding: 15px;
              margin: auto;
              gap: 10px;
+        }
+        .card_container img {
+          width: 100%;
+          height: 350px;
+          transition: all ease-in-out 2s;
+          
+        }
+        .card_container img:hover{
+          transform: scale(1.1);
+          
         }
         }
 
@@ -63,6 +81,16 @@ display: grid;
  margin: auto;
  gap: 10px;
 }
+.card_container img {
+          width: 100%;
+          height: 350px;
+          transition: all ease-in-out 2s;
+          
+        }
+        .card_container img:hover{
+          transform: scale(1.1);
+          
+        }
 }
 
      
@@ -93,11 +121,11 @@ display: grid;
     let card1=document.createElement("div")
     card1.classList.add("card_container")
     let img1=document.createElement("img")
-    img1.src="https://img.freepik.com/free-photo/beautiful-shot-crystal-clear-lake-snowy-mountain-base-during-sunny-day_181624-5459.jpg"
+    img1.src="https://m.media-amazon.com/images/I/71IXpu7xesL._AC_UF1000,1000_QL80_.jpg"
     let title1=document.createElement("h1")
-    title1.innerText="Dal Lake"
+    title1.innerText="Moon Lake"
     let detail1=document.createElement("p")
-    detail1.innerText="Dal Lake in Kashmir and india's most beutiful lake."
+    detail1.innerText="Moon Lake in Kashmir and india's most beutiful lake."
     let btn1=document.createElement("button")
     btn1.innerText="Know More"
     card1.append(img1,title1,detail1,btn1)
@@ -121,11 +149,11 @@ display: grid;
     let card3=document.createElement("div")
     card3.classList.add("card_container")
     let img3=document.createElement("img")
-    img3.src="https://img.freepik.com/free-photo/beautiful-shot-crystal-clear-lake-snowy-mountain-base-during-sunny-day_181624-5459.jpg"
+    img3.src="https://m.media-amazon.com/images/I/71IXpu7xesL._AC_UF1000,1000_QL80_.jpg"
     let title3=document.createElement("h1")
-    title3.innerText="Dal Lake"
+    title3.innerText="Moon Lake"
     let detail3=document.createElement("p")
-    detail3.innerText="Dal Lake in Kashmir and india's most beutiful lake."
+    detail3.innerText="Moon Lake in Kashmir and india's most beutiful lake."
     let btn3=document.createElement("button")
     btn3.innerText="Know More"
     card3.append(img3,title3,detail3,btn3)
@@ -147,11 +175,11 @@ display: grid;
     let card5=document.createElement("div")
     card5.classList.add("card_container")
     let img5=document.createElement("img")
-    img5.src="https://img.freepik.com/free-photo/beautiful-shot-crystal-clear-lake-snowy-mountain-base-during-sunny-day_181624-5459.jpg"
+    img5.src="https://m.media-amazon.com/images/I/71IXpu7xesL._AC_UF1000,1000_QL80_.jpg"
     let title5=document.createElement("h1")
-    title5.innerText="Dal Lake"
+    title5.innerText="Moon Lake"
     let detail5=document.createElement("p")
-    detail5.innerText="Dal Lake in Kashmir and india's most beutiful lake."
+    detail5.innerText="Moon Lake in Kashmir and india's most beutiful lake."
     let btn5=document.createElement("button")
     btn5.innerText="Know More"
     card5.append(img5,title5,detail5,btn5)
@@ -173,11 +201,11 @@ display: grid;
     let card7=document.createElement("div")
     card7.classList.add("card_container")
     let img7=document.createElement("img")
-    img7.src="https://img.freepik.com/free-photo/beautiful-shot-crystal-clear-lake-snowy-mountain-base-during-sunny-day_181624-5459.jpg"
+    img7.src="https://m.media-amazon.com/images/I/71IXpu7xesL._AC_UF1000,1000_QL80_.jpg"
     let title7=document.createElement("h1")
-    title7.innerText="Dal Lake"
+    title7.innerText="Moon Lake"
     let detail7=document.createElement("p")
-    detail7.innerText="Dal Lake in Kashmir and india's most beutiful lake."
+    detail7.innerText="Moon Lake in Kashmir and india's most beutiful lake."
     let btn7=document.createElement("button")
     btn7.innerText="Know More"
     card7.append(img7,title7,detail7,btn7)
